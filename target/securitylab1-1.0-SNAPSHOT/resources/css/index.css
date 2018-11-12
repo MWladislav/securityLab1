@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+.centered{
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+#headerwrap {
+  background: url(../../resources/imgs/slide1.jpg) no-repeat;
+  background-size: 100%;
+  background-attachment:relative;
+  background-position: center center;
+  min-height: 270px;
+  width:100%;
+  margin-top: 40px;
+  padding-top:30px;
+  text-align:center;
+  -webkit-background-size: cover;
+}
+
+.container {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* 2 колонки на sm */
+@media (min-width: 576px) {
+  .card-columns {
+      -webkit-column-count: 2;
+      column-count: 2;
+      margin-top: 10px;
+      padding-top: 20px;
+  }
+}
+/* 3 колонки на md */
+@media (min-width: 768px) {
+  .card-columns {
+      -webkit-column-count: 3;
+      column-count: 3;
+      margin-top: 10px;
+      padding-top: 20px;
+  }
+}
+/* 4 колонки на lg и xl */
+@media (min-width: 992px) {
+  .card-columns {
+      -webkit-column-count: 4;
+      column-count: 4;
+      margin-top: 10px;
+      padding-top: 30px;
+  }
+}
+
+.card {
+  border-radius: 5px;
+  max-width: 17rem;
+  margin-bottom: 20px;
+}
+.card h4 {
+  font-weight: 800;
+}
+
+.card .btn {
+  font-weight: bolder;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 7px;
+}
+
+#brown {
+  color: #B5663B;
+  border-color: #B5663B;
+}
+#brown:hover {
+  color: white;
+  background-color: #B5663B;
+}
+#violet {
+  color: #C987BB;
+  border-color: #C987BB;
+}
+#violet:hover {
+  color: white;
+  background-color: #C987BB;
+}
+#skyBlue {
+  color: #498097;
+  border-color: #498097;
+}
+#skyBlue:hover {
+  color: white;
+  background-color: #498097;
+}
+#pink {
+  color: #F561AC;
+  border-color: #F561AC;
+}
+#pink:hover {
+  color: white;
+  background-color: #F561AC;
+}
+#blue {
+  color: #191F57;
+  border-color: #191F57;
+}
+#blue:hover {
+  color: white;
+  background-color: #191F57;
+}
+#red {
+  color: #C0111A;
+  border-color: #C0111A;
+}
+#red:hover {
+  color: white;
+  background-color: #C0111A;
+}
